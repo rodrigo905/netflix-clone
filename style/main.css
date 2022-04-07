@@ -1,6 +1,6 @@
 :root{
-    --vermelho:#E50914;
-    --preta:#141414;
+    --vermelho: white;
+    --preta:rgb(21, 22, 27);
 }
 
 *{
@@ -32,6 +32,15 @@ header .logo{
     font-size:40px;
 }
 
+header img{
+    width: 8vw;
+    height: auto ;
+}
+
+.dio{
+    display: flex ;
+}
+
 header nav a{
     text-decoration:none;
     color:#AAA;
@@ -46,9 +55,9 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,0.8)),  url('/img/capa-house.jpg');
 
-    height:400px;
+    height:475px;
     background-size:cover;
  
 
@@ -112,6 +121,7 @@ header nav a:hover{
 
 .carrosel-filmes{
     margin-top:5px;
+    height: 100px;
 }
 
 
